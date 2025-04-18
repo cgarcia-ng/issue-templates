@@ -5,7 +5,6 @@ labels: ["enhancement"]
 projects: ["cgarcia-ng/1"]
 assignees:
   - cgarcia-ng
-type: "bug"
 body:
   - type: markdown
     attributes:
