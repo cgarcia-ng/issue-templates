@@ -2,7 +2,7 @@ name: Feature Request
 description: Suggest a new idea or improvement
 title: "[FEATURE] "
 labels: ["enhancement"]
-projects: ["geniosng-app"]
+projects: ["prueba"]
 assignees:
   - cgarcia-ng
 body:
