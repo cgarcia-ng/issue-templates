@@ -2,6 +2,7 @@ name: Feature Request
 description: Suggest a new idea or improvement
 title: "[FEATURE] "
 labels: ["enhancement"]
+projects: ["geniosng"]
 body:
   - type: markdown
     attributes:
