@@ -2,7 +2,7 @@ name: Feature Request
 description: Suggest a new idea or improvement
 title: "[FEATURE] "
 labels: ["enhancement"]
-projects: ["prueba"]
+projects: ["cgarcia-ng/1"]
 assignees:
   - cgarcia-ng
 body:
