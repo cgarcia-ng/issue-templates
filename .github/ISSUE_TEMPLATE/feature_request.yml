@@ -1,71 +1,39 @@
 name: Feature Request
-description: Submit a new request for a feature or new section to be added to the project.
-title: "[Feature] NGPTY-XXXX: "
-labels: ["feature"]
-project: geniosng-app
-assignees:
-  - cgarcia-ng
+description: Suggest a new idea or improvement
+title: "[FEATURE] "
+labels: ["enhancement"]
 body:
-  - type: input
-    id: title
+  - type: markdown
     attributes:
-      label: Feature Title
-      description: A short and descriptive title for the new feature.
-      placeholder: Short summary of the feature
-    validations:
-      required: true
-
-  - type: dropdown
-    id: priority
-    attributes:
-      label: Priority
-      options:
-        - P0 - Critical
-        - P1 - High
-        - P2 - Medium
-        - P3 - Low
-      default: P1 - High
-    validations:
-      required: true
-
-  - type: dropdown
-    id: status
-    attributes:
-      label: Initial Status
-      options:
-        - Backlog
-        - To do
-        - In progress
-      default: Backlog
-    validations:
-      required: true
+      value: |
+        Please describe your feature request or suggestion.
 
   - type: input
-    id: assignee
+    id: feature
     attributes:
-      label: Assignee
-      description: GitHub username of the person responsible for this issue.
-      placeholder: your-github-username
+      label: Feature Summary
+      placeholder: A short summary of the feature
     validations:
       required: true
-
-  - type: input
-    id: milestone
-    attributes:
-      label: Milestone
-      description: Associated milestone for this feature (if any).
-      placeholder: e.g. Q2 Goals, Beta Release
 
   - type: textarea
-    id: description
+    id: problem
     attributes:
-      label: Description
-      description: Explain what needs to be done and why it's important.
-      placeholder: Describe the context, purpose, and scope of the feature request.
+      label: Problem it solves
+      placeholder: What problem does this feature solve?
+    validations:
+      required: false
 
   - type: textarea
-    id: acceptance_criteria
+    id: implementation
     attributes:
-      label: Acceptance Criteria
-      description: Define when this feature should be considered complete.
-      placeholder: List specific conditions or outputs that indicate completion.
+      label: Suggested Implementation
+      placeholder: How could this feature be implemented?
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      placeholder: Any other notes or context.
