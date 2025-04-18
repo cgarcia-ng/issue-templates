@@ -1,0 +1,45 @@
+name: Security Issue
+description: Report a vulnerability or security concern
+title: "[SECURITY] "
+labels: ["security"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please report only real or suspected vulnerabilities using this form.
+
+  - type: input
+    id: description
+    attributes:
+      label: Security Description
+      placeholder: What is the vulnerability?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: risk
+    attributes:
+      label: Risk Level
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+    validations:
+      required: true
+
+  - type: textarea
+    id: mitigation
+    attributes:
+      label: Suggested Mitigation
+      placeholder: How can this be addressed?
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      placeholder: Logs, CVEs, or other details
+    validations:
+      required: false

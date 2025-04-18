@@ -1,0 +1,33 @@
+name: Chore
+description: Log technical or maintenance work
+title: "[CHORE] "
+labels: ["chore"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to log technical work or internal cleanup tasks.
+
+  - type: input
+    id: description
+    attributes:
+      label: Task Description
+      placeholder: Describe the internal task
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why is this needed?
+      placeholder: Brief explanation of purpose
+    validations:
+      required: false
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      placeholder: What will this affect?
+    validations:
+      required: false
