@@ -3,7 +3,8 @@ description: Suggest a new idea or improvement
 title: "[FEATURE] "
 labels: ["enhancement"]
 projects: ["cgarcia-ng/1"]
-assignees: ["cgarcia-ng"]
+assignees:
+  - cgarcia-ng
 type: "feature"
 body:
   - type: markdown
