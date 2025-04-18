@@ -1,5 +1,2 @@
 blank_issues_enabled: false
-contact_links:
-  - name: Preguntas generales
-    url: https://example.com/contacto
-    about: Si tenés dudas no relacionadas con bugs o features, usá este enlace.
+contact_links: []
