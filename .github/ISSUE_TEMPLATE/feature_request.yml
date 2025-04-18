@@ -2,7 +2,9 @@ name: Feature Request
 description: Suggest a new idea or improvement
 title: "[FEATURE] "
 labels: ["enhancement"]
-projects: ["geniosng"]
+projects: ["geniosng-app"]
+assignees:
+  - cgarcia-ng
 body:
   - type: markdown
     attributes:
